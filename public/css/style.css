@@ -1,0 +1,69 @@
+/*!
+ =========================================================
+ * Paper Kit 2 - v2.0.1
+ =========================================================
+
+ * Copyright 2017 Creative Tim (http://www.creative-tim.com)
+ * Licensed under MIT (https://github.com/timcreative/paper-kit/blob/master/LICENSE.md)
+
+ =========================================================
+ */
+
+.page-header {
+  background-color: #B2AFAB;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 999px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-header .filter::after {
+  background-color: rgba(0, 124, 255, 0.6);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.page-header .content-center {
+  margin-top: -275px;
+  z-index: 1;
+}
+
+.title-brand {
+  max-width: 730px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .title-brand {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .wrapper {
+    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    left: 0;
+    background-color: white;
+  }
+}
