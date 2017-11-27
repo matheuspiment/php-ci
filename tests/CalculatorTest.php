@@ -34,7 +34,7 @@ class CalculatorTest extends TestCase
         fwrite(STDOUT, __METHOD__ . "\n");
 
         $value = $this->calc->addTwo(2, 3);
-        $this->assertEquals($value, 5);
+        $this->assertEquals($value, 6);
     }
 
     public function testMultiply()
