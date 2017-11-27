@@ -1,5 +1,6 @@
 {
   "name": "php-ci",
+	"description": "Exemplo de integração contínua com PHP, PHPUnit, Travis CI, Coveralls e Heroku",
   "license": "MIT",
   "authors": [
     {
