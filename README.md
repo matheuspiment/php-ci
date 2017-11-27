@@ -11,7 +11,7 @@ Exemplo de aplicação com utilização de integração contínua.
 * Relatório de Testes: [Coveralls](https://coveralls.io/)
 * Deploy: [Heroku](https://heroku.com)
 
-## Instruções
+## Ferramentas
 
 ### [Composer](https://getcomposer.org/)
 
