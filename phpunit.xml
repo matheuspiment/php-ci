@@ -12,6 +12,8 @@
                 <directory>./public</directory>
                 <directory>./vendor</directory>
                 <directory>./tests</directory>
+								<directory>./App/Views</directory>
+								<file>./App/App.php</file>
             </exclude>
         </whitelist>
     </filter>
